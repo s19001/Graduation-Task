@@ -14,12 +14,12 @@ button {
     font-size: 18px;
     width: 150px;
     height: 50px;
-    background-color: #bbb;
+    background-color: #ddd;
     border: 2px solid;
 }
 
 button:active {
     border: 1px solid;
-    box-shadow: 1px 1px 3px 4px #999 inset;
+    box-shadow: 1px 1px 3px 4px #bbb inset;
 }
 
