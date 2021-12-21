@@ -4,7 +4,7 @@ var channelId = 'UC_SI1j1d8vJo_rYMV5o_dRg'; // ポケモン
 var eventType = 'upcoming';
 
 var num = 5;
-var listid = 'PLU12uITxBEPH-v3cHoNvURjai8QqZqcxh';
+var listid = 'PLU12uITxBEPGosR7YHt6eSeKUwK8U-CGa';
 
 var apikey = 'AIzaSyCEEJpyhA2XEe8QuyYIV0IWu8RjoHOQ25g';
 
@@ -39,7 +39,6 @@ function getTrainList() {
       var row = document.getElementById('greeting').insertRow();
       // row.insertCell().textContent = i + 1;
       row.insertCell().textContent = title;
-      // title.link("https://www.youtube.com/watch?v=" + videoId);
       row.insertCell().textContent = "https://www.youtube.com/watch?v=" + videoId;
     }
   });
