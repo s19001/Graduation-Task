@@ -5,10 +5,10 @@ var apikey = '';
 
 var url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults='+ num +'&playlistId='+ listid +'&key='+apikey;
 window.addEventListener('load', function() {
-  getTrainList();
+  getYoutubeList();
 });
 
-function getTrainList() {
+function getYoutubeList() {
   fetch(url)
   .then(function (data) {
     return data.json();
