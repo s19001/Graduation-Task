@@ -26,6 +26,7 @@ ul.hoge li:not(:first-child) { border-left: 1px solid #000;}
 table {
     border-collapse: separate;
     border-spacing: 0px 10px;
+    width: 100%;
 }
 
 tr {
